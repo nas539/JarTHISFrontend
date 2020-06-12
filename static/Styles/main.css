@@ -1,16 +1,28 @@
+.body {
+    width: 100vh;
+    height: 100vh;
+    position: fixed;
+}
+
 .container {
+    height: 100%;
     display: grid;
     grid-template-rows: 1fr 10fr 1fr;
 }
 
 
 .heading-wrapper {
-    background-color: grey;
+    background-color: lightgrey;
     height: 100px;
 }
 
 .footer-wrapper {
     height: 100px;
-    background-color: grey;
+    background-color: lightgrey;
 }
 
+.heading-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    
+}
