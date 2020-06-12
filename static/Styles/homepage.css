@@ -1,0 +1,16 @@
+.heading-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-column-header a{
+    border: 2px solid darkgrey;
+}
+
+.main-content-wrapper{
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
