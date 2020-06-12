@@ -1,0 +1,27 @@
+.profile-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+.left-profile-side-wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
+
+.right-profile-side-wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+body {
+    background-color: lightgray;
+    ;
+}
