@@ -3,7 +3,9 @@
     grid-template-rows: 1fr 10fr 1fr;
 }
 
+
 .heading-wrapper {
     background-color: grey;
     height: 100px;
 }
+
